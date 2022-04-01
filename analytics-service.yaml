@@ -9,11 +9,11 @@ metadata:
     io.kompose.service: analytics
   name: analytics
 spec:
+  type: NodePort
   ports:
     - name: "8090"
       port: 8090
       targetPort: 8090
+      nodePort: 30090
   selector:
     io.kompose.service: analytics
-status:
-  loadBalancer: {}
