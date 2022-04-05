@@ -17,5 +17,3 @@ spec:
       nodePort: 30306
   selector:
     io.kompose.service: mysql-db
-status:
-  loadBalancer: {}

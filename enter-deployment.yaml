@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: enter
   name: enter
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       io.kompose.service: enter

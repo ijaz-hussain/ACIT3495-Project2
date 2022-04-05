@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: analytics
   name: analytics
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       io.kompose.service: analytics

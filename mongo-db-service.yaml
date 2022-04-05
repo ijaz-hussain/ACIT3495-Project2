@@ -17,5 +17,3 @@ spec:
       nodePort: 30017
   selector:
     io.kompose.service: mongo-db
-status:
-  loadBalancer: {}
